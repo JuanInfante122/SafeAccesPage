@@ -28,7 +28,7 @@ input{
     border: none;
 }
 .logo img{
-    width: 140px;
+    width: 100px;
 }
 #main{
     width:100%;
@@ -67,7 +67,7 @@ nav{
 }
 nav.active{
 	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
-	background-color: #191717;
+	background-color: #7D7C7C;
 }
 nav ul{
 	display: flex;
@@ -210,8 +210,8 @@ nav .menu-btn,
 
 }
 .a-box:hover{
-    border: 3px solid #ff0000;
-    box-shadow: 2px 2px 12px rgba(255, 0, 0, 0.5);
+    border: 4px solid #CCC8AA;
+    box-shadow: 2px 2px 12px #CCC8AA;
 }
 .a-b-text{
     width: 100%;
@@ -603,7 +603,8 @@ nav .menu-btn,
             padding: 0px 30px;
         }
         .logo img{
-            width:80px;
+            width:60px;
+            padding-top: 10px;
         }
         .header-btns{
             margin: 0;
